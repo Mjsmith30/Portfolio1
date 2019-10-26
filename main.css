@@ -45,19 +45,27 @@
    padding-right:20px;
    font-size:  54px;
  }
+ .home:hover{
+   color: white;
+ }
  
  .about{
    padding-right: 20px;
    font-size: 27px;
  }
  
+ .about:hover{
+   color:white;
+ }
  #projects{
    padding-right: 80px;
    font-size: 60px;
    padding-left:170px;
    padding-top:150px;
  }
- 
+ .project:hover{
+   color:white;
+ }
  .logo{
   padding-top: -30px;
   padding-bottom: 110px;
@@ -118,11 +126,12 @@
        -webkit-box-shadow: 0 8px 100px -6px black;
           -moz-box-shadow: 0 8px 100px -6px black;
                box-shadow: 0 8px 100px -6px black;
-     margin-left: 40px;
-    
-   
-      
+     margin-left: 40px;   
    }
+ 
+ img:hover{
+   border-color:white; 
+ }
  .wrapper {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -189,6 +198,9 @@
    color:#64ffda;
    font-size:60px;
  }
+ h1:hover {
+   background-color: rgb(210, 209, 214);
+ }
  h2{
    padding-top:20px;
    color:#8892b0;
@@ -197,7 +209,6 @@
    padding-right:140px;
  }
  .helloP{
-  
     font-size:34px;
    
  }
@@ -208,8 +219,17 @@
  
  .pugs{
    padding-bottom: -190px;
+   
  }
  
  #bottomspinner{
    padding-left: 130px;
+ }
+ 
+ #resumes{
+     width:900px;
+     text-align:center;
+     margin-top: 150px;
+     margin-left: 302px;
+ 
  }
