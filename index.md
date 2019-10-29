@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="navbar">
+        <nav>
+            <!--    navigation bar       -->
+            <div class='container container--realistic'>
+                <div class='cube cube--ani'>
+                    <div class='face'>MARQUES</div>
+                    <div class='face'>MARQUES</div>
+                    <div class='face'>MARQUES</div>
+                    <div class='face'>MARQUES</div>
+                </div>
+            </div>
+            <div class="home"><a href="main.html">HOME</a></div>
+            <div class="about"><a href="https://www.linkedin.com/in/marques-smith-0a265aa6/">LinkedIN</a></div>
+            <div class="project"><a href="https://github.com/Mjsmith30">GITHUB</a></div>
+            <div class="resume"><a href="resume.html">RESUME</a></div>
+        </nav>
+    </section>
+
+    <!-- creates space for nav   -->
+    <nav></nav>
+    <h1>
+        <p class="helloP">Hello, My Name Is,</p> Marques Smith.
+    </h1>
+    <h2>I'm a software engineer based in Los Angeles, CA specializing in building (and occasionally designing)
+        exceptional, high-quality websites and applications.</h2>
+    <div class="wrapper">
+
+        <div class="one">
+            <p> I'm a fullstack software engineer based in Los Angeles, CA who enjoys building
+                things that live on the internet. I develop exceptional websites and web apps that provide intuitive,
+                pixel-perfect user interfaces with efficient
+                and modern backends.
+            </p>
+        </div>
+        <div class="two"><img src=https://i.imgur.com/SInqjrF.jpg> </div> <div class="three">
+            <g>Here are a few Technologies I've worked with recently:</g>
+            <h3>Javscript || Python || MongoDb || SQL || NODE.js || Express || React || JQUERY || Css || HTML</h3>
+            <div id="bottomspinner" class='container container--realistic'>
+                <div class='cube cube--ani'>
+                    <div class='face'>Marques</div>
+                    <div class='face'>Marques</div>
+                    <div class='face'>Marques</div>
+                    <div class='face'>MARQUES</div>
+                </div>
+            </div>
+        </div>
+        <div class="four">
+
+            <h3 id="projects">PROJECTS</h3>
+            <ul>
+                <li>
+                    <div class="pugs">
+                        <h3 class="pugs">Pick.Up.Games</h3>
+                        <img src="https://i.imgur.com/u22Ffxf.png">
+                        <img src="https://i.imgur.com/o8C5JRH.png">
+                    </div>
+                </li>
+                <li>
+                    <g>Pugs, Aka Pick Up Games is an App that allows basketball players to connect across the city. It
+                        allows you to find parks, the amount of players attending, and when they will be there.It puts
+                        to bed the search for a descent pick up game of basketball
+                        within your city.</g>
+                </li>
+                <li>
+                    <h3 class="pugs">THRIFT X HUNTER</h3>
+                </li>
+                <li>
+                    <img src="https://i.imgur.com/ifglBKP.jpg">"</li>
+
+                <g>ThriftxHunter is an app that allows you your friends and the entire world to post items up for
+                    sale that you no longer need, instead of throwing old things away, this non-profit website will
+                    host a space for you to sale them. You know what they say, one mans trash is another mans
+                    treasure!</g>
+
+                <li>
+                    <h3 class="pugs">PlayYourRole</h3>
+                </li>
+                <li><img src="https://i.imgur.com/8LN7ZpT.jpg"></li>
+
+                <g>Play your role is an social forum site designed for the gaming enthusiast. Here You can talk with
+                    other like minded people about video games, and all the magic that comes along with it</g>
+            </ul>
+        </div>
+    </div>
+
+    <div class="five"><p>Marques Smith</p>
+        <!-- <div class="app" src= "https://www.facebook.com/london.ques"><code>
+        </code></div> -->
+    </div>
+
+    <!-- <div class="six"><span class="instagram">
+            <span class="fa fa-instagram"></span> -->
+
+        </span>
+
+    </div>
+    </div>
+</body>
+
+</html>
