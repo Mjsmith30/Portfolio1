@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
   }
-  
+ 
   body {
     margin: 0;
     font-family: Helvetica;
     background-color: rgb(10, 25, 47); 
     font-family: 'Anton', sans-serif;  
    }
-
+  
   nav {
     display: flex;
     flex-direction: row; /* default */
@@ -321,8 +321,9 @@
           box-shadow: 0 8px 10px -6px black;
            padding-top: 9px;
  }
- 
+ @media only screen and (min-width: 580px){
  w{
      margin-left: 90px;
      color:white; 
+ }
  }
