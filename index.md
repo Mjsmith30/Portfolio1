@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <section class="navbar">
+        <section class= "fixed-nav-bar" class="navbar">
+        <div style="min-width: 1400px; margin: 0 auto; max-height: 800px;">
         <nav>
             <!--    navigation bar       -->
             <div class='container container--realistic'>
@@ -24,7 +25,7 @@
                     <div class='face'>MARQUES</div>
                 </div>
             </div>
-            <div class="home"><a href="main.html">HOME</a></div>
+            <div class="home"><a href="index.html">HOME</a></div>
             <div class="about"><a href="https://www.linkedin.com/in/marques-smith-0a265aa6/">LinkedIN</a></div>
             <div class="project"><a href="https://github.com/Mjsmith30">GITHUB</a></div>
             <div class="resume"><a href="resume.html">RESUME</a></div>
@@ -66,15 +67,16 @@
                 <li>
                     <div class="pugs">
                         <h3 class="pugs">Pick.Up.Games</h3>
-                        <img src="https://i.imgur.com/u22Ffxf.png">
-                        <img src="https://i.imgur.com/o8C5JRH.png">
+                        <img src="https://i.imgur.com/gjjzOQF.png">                                           
                     </div>
                 </li>
                 <li>
                     <g>Pugs, Aka Pick Up Games is an App that allows basketball players to connect across the city. It
                         allows you to find parks, the amount of players attending, and when they will be there.It puts
                         to bed the search for a descent pick up game of basketball
-                        within your city.</g>
+                        within your city.
+                    Languages: Python || MongoDB || HTMl || CSS || AWS <a href="http://pickupgames.herokuapp.com/">PICKUPGAMES</a></g>
+
                 </li>
                 <li>
                     <h3 class="pugs">THRIFT X HUNTER</h3>
@@ -85,7 +87,8 @@
                 <g>ThriftxHunter is an app that allows you your friends and the entire world to post items up for
                     sale that you no longer need, instead of throwing old things away, this non-profit website will
                     host a space for you to sale them. You know what they say, one mans trash is another mans
-                    treasure!</g>
+                    treasure!
+                Languages: Javascript || Express || Node || HTML || CSS <a href="https://thrifthunter.herokuapp.com/hunter">THRIFT HUNTER</a></g>
 
                 <li>
                     <h3 class="pugs">PlayYourRole</h3>
@@ -93,14 +96,25 @@
                 <li><img src="https://i.imgur.com/8LN7ZpT.jpg"></li>
 
                 <g>Play your role is an social forum site designed for the gaming enthusiast. Here You can talk with
-                    other like minded people about video games, and all the magic that comes along with it</g>
+                    other like minded people about video games, and all the magic that comes along with it.
+                Languages: Mongodb || Express || React || Node || HTML || CSS <a href="https://playyourrole.herokuapp.com">PlayYourRole</a></g>
+                    <li>
+                        <h3 class="pugs">Guitar Collector</h3>
+                    </li>
+                    <li>
+                        <img src="https://i.imgur.com/0BFruSZ.png">
+                    </li>
+                    <g> An app for the guitar enthusiast. Most guitar players like myself have multiple guitars, this app allows you to keep track of the ones you have, the ones you want, and the upkeep of all your guitars and guitar picks
+                        Languages:Python || MondoDb || AWS || HTML || CSS 
+                        <a href="https://lit-mesa-45572.herokuapp.com">Guitar Collector</a>
+                    </g>
             </ul>
         </div>
     </div>
 
     <div class="five"><p>Marques Smith</p>
-        <!-- <div class="app" src= "https://www.facebook.com/london.ques"><code>
-        </code></div> -->
+        <div class="app" src= "https://www.facebook.com/london.ques"><code><a href="https://www.facebook.com/london.ques"><w>s</w></a>
+        </code></div>
     </div>
 
     <!-- <div class="six"><span class="instagram">
@@ -110,6 +124,7 @@
 
     </div>
     </div>
+</div>
 </body>
 
 </html>
